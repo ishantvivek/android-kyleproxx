@@ -23,6 +23,13 @@
 
   <project path="android" name="temasek/android" remote="github" revision="cm-12.1" />
 
+
+<!-- KYLEPROXX -->
+  <!-- <project path="device/samsung/kylepro" name="SandPox/android_device_samsung_kylepro" remote="github" revision="cm-12.1" /> -->
+  <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleprods" remote="github" revision="temasek" />
+  <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
+  <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="kyleprods" />
+
   <!-- START of temasek -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />

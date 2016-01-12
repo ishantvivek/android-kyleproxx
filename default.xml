@@ -68,18 +68,18 @@
   <project path="packages/apps/PackageInstaller" name="temasek/android_packages_apps_PackageInstaller" remote="github" revision="cm-12.1" />
   <project path="packages/apps/PhoneCommon" name="temasek/android_packages_apps_PhoneCommon" remote="github" revision="cm-12.1" />
   <project path="packages/apps/SetupWizard" name="temasek/android_packages_apps_SetupWizard" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Settings" name="temasek/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Settings" name="ishantvivek/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Stk" name="temasek/android_packages_apps_Stk" remote="github" revision="cm-12.1" />
   <project path="packages/apps/ThemeChooser" name="temasek/android_packages_apps_ThemeChooser" remote="github" revision="cm-12.1" />
   <project path="packages/inputmethods/LatinIME" name="temasek/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.1" />
   <project path="packages/providers/DownloadProvider" name="temasek/android_packages_providers_DownloadProvider" remote="github" revision="cm-12.1" />
   <project path="packages/providers/MediaProvider" name="temasek/android_packages_providers_MediaProvider" remote="github" revision="cm-12.1" />
   <project path="packages/services/Telecomm" name="temasek/android_packages_services_Telecomm" remote="github" revision="cm-12.1" />
-  <project path="packages/services/Telephony" name="temasek/android_packages_services_Telephony" remote="github" revision="cm-12.1" />
+  <project path="packages/services/Telephony" name="ishantvivek/android_packages_services_Telephony" remote="github" revision="cm-12.1" />
   <project path="prebuilts/ndk" name="temasek/android_prebuilt_ndk" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="temasek/android_vendor_cm" remote="github" revision="cm-12.1" />
   <project path="vendor/cmsdk" name="temasek/cm_platform_sdk" remote="github" revision="cm-12.1" />
-  <project path="system/core" name="temasek/android_system_core" remote="github" revision="cm-12.1" />
+  <project path="system/core" name="ishantvivek/android_system_core" remote="github" revision="cm-12.1" />
   <project path="system/security" name="temasek/android_system_security" remote="github" revision="cm-12.1" />
   <project path="external/bluetooth/bluedroid" name="temasek/android_external_bluetooth_bluedroid" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/third_party/WebKit" name="temasek/android_external_chromium_org_third_party_WebKit" remote="github" revision="cm-12.1" />
@@ -450,7 +450,7 @@
   <!--<project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />-->
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
+  <project path="hardware/broadcom/libbt" name="ishantvivek/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-12.1" />
   <!--<project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />-->
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />

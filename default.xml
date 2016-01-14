@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.1_r26" />
+           revision="refs/tags/android-5.1.1_r33" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -78,7 +78,7 @@
   <project path="packages/services/Telecomm" name="temasek/android_packages_services_Telecomm" remote="github" revision="cm-12.1" />
   <project path="packages/services/Telephony" name="ishantvivek/android_packages_services_Telephony" remote="github" revision="cm-12.1" />
   <project path="prebuilts/ndk" name="temasek/android_prebuilt_ndk" remote="github" revision="cm-12.1" />
-  <project path="vendor/cm" name="ishantvivek/android_vendor_cm-1" remote="github" revision="cm-12.1" />
+  <project path="vendor/cm" name="temasek/android_vendor_cm" remote="github" revision="cm-12.1" />
   <project path="vendor/cmsdk" name="temasek/cm_platform_sdk" remote="github" revision="cm-12.1" />
   <project path="system/core" name="ishantvivek/android_system_core" remote="github" revision="cm-12.1" />
   <project path="system/security" name="temasek/android_system_security" remote="github" revision="cm-12.1" />

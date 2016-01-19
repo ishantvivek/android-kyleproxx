@@ -34,10 +34,10 @@
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
 
   <!-- START of temasek -->
- <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="arter97/arm-linux-androideabi-5.2" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="arter97/arm-linux-androideabi-5.2" remote="github" revision="master" /> -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="arter97/arm-linux-androideabi-5.2" remote="github" revision="master" /> 
   <project path="art" name="temasek/android_art" remote="github" revision="cm-12.1" />
   <project path="bootable/recovery" name="ishantvivek/android_bootable_recovery" remote="github" revision="cm-12.1" />
   <project path="bionic" name="temasek/android_bionic" remote="github" revision="cm-12.1" />
@@ -49,7 +49,7 @@
   <project path="frameworks/opt/net/ims" name="temasek/android_frameworks_opt_net_ims" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/net/wifi" name="temasek/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/telephony" name="ishantvivek/android_frameworks_opt_telephony" remote="github" revision="cm-12.1" />
-  <project path="frameworks/webview" name="arter97/android_frameworks_webview" remote="github" revision="cm-12.1" />
+  <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="github" revision="cm-12.1" />
   <project path="hardware/broadcom/wlan" name="temasek/android_hardware_broadcom_wlan" remote="github" revision="cm-12.1" />
   <project path="hardware/libhardware" name="temasek/android_hardware_libhardware" remote="github" revision="cm-12.1" />
   <project path="libcore" name="temasek/android_libcore" remote="github" revision="cm-12.1" />

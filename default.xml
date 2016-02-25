@@ -33,10 +33,15 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="ResurrectionRemix/platform_manifest" remote="github" revision="optimized-lollipop5.1" >
+  <project path="android" name="ishantvivek/platform_manifest" remote="github" revision="optimized-lollipop5.1" >
   <copyfile src="build.sh" dest="build-rr.sh" />
   </project>
+<!-- KYLEPROXX -->
 
+  <project path="device/samsung/kylepro" name="SandPox/android_device_samsung_kylepro" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/kyleprods" name="SandPox/android_device_samsung_kyleprods" remote="github" revision="cm-12.1" />
+  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
+  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="ResurrectionRemix/android_bionic" groups="pdk" revision="optimized-lollipop5.1" />
@@ -438,6 +443,7 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-12.1-caf" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
@@ -525,6 +531,7 @@
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" />
   <project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" revision="android-support-test" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" remote="aosp" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/clang/darwin-x86/host/3.4" name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin" remote="aosp" />

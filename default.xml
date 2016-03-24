@@ -354,7 +354,7 @@
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
  <!-- <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="github" revision="cm-12.1" /> -->
-  <project path="external/chromium-webview" name="pawitp/android_external_chromium-webview" remote="github" revision="aosp-6.0" /> 
+  <project path="external/chromium-webview" name="SandPox/android_external_chromium-webview" remote="github" revision="aosp-6.0" /> 
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />

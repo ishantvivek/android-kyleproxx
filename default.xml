@@ -47,7 +47,7 @@
   <project path="frameworks/opt/net/ims" name="temasek/android_frameworks_opt_net_ims" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/net/wifi" name="temasek/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/telephony" name="temasek/android_frameworks_opt_telephony" remote="github" revision="cm-12.1" />
-  <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="github" revision="cm-12.1" />
+  <project path="frameworks/webview" name="ishantvivek/android_frameworks_webview" remote="github" revision="cm-12.1" />
   <project path="hardware/broadcom/wlan" name="temasek/android_hardware_broadcom_wlan" remote="github" revision="cm-12.1" />
   <project path="hardware/libhardware" name="temasek/android_hardware_libhardware" remote="github" revision="cm-12.1" />
   <project path="libcore" name="temasek/android_libcore" remote="github" revision="cm-12.1" />

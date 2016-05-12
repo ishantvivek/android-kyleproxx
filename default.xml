@@ -41,7 +41,7 @@
   <project path="bionic" name="temasek/android_bionic" remote="github" revision="cm-12.1" />
   <project path="development" name="temasek/android_development" remote="github" revision="cm-12.1" />
   <project path="frameworks/av" name="temasek/android_frameworks_av" remote="github" revision="cm-12.1" />
-  <project path="frameworks/base" name="temasek/android_frameworks_base" remote="github" revision="cm-12.1" />
+  <project path="frameworks/base" name="temasek-rom/android_frameworks_base" remote="github" revision="cm-12.1" />
   <project path="frameworks/native" name="temasek/android_frameworks_native" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/cards" name="temasek/frameworks_opt_cards" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/net/ims" name="temasek/android_frameworks_opt_net_ims" remote="github" revision="cm-12.1" />
@@ -51,7 +51,7 @@
   <project path="hardware/broadcom/wlan" name="temasek/android_hardware_broadcom_wlan" remote="github" revision="cm-12.1" />
   <project path="hardware/libhardware" name="temasek/android_hardware_libhardware" remote="github" revision="cm-12.1" />
   <project path="libcore" name="temasek/android_libcore" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Bluetooth" name="temasek/android_packages_apps_Bluetooth" revision="cm-12.1" />
+  <project path="packages/apps/Bluetooth" name="temasek-rom/android_packages_apps_Bluetooth" revision="cm-12.1" />
   <project path="packages/apps/Browser" name="temasek/android_packages_apps_Browser" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Calendar" name="temasek/android_packages_apps_Calendar" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Calculator" name="temasek/android_packages_apps_Calculator" remote="github" revision="cm-12.1" />

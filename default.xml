@@ -30,6 +30,7 @@
  <project path="external/chromium-webview" name="Sandpox/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="github" revision="aosp-6.0" />
  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
  <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" remote="github" revision="cm-13.0" />
+ <project path="frameworks/native" name="ishantvivek/android_frameworks_native" remote="github" revision="m" />
 
 <!-- END Kyleproxx -->           
 
@@ -424,7 +425,7 @@
  <!--frameworks-->
  <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="m" />
  <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="m" />
- <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="m" />
+ <!-- <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="m" />-->
  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="du" revision="m" />
  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="du" revision="m" />
  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="m" />

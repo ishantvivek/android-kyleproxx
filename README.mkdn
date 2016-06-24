@@ -1,77 +1,50 @@
-TEMASEK
-=======
+CyanogenMod
+===========
 
-This project is WORKS-IN-PROGRESS (WIP), not ready for use.
+Submitting Patches
+------------------
+Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
+You can do this by using these commands:
 
+    (From root android directory)
+    . build/envsetup.sh
+    (Go to repo you are patching, make your changes and commit)
+    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
 
-Download the Source
-===================
+    repo start cm-13.0 .
+    (Make your changes and commit)
+    repo upload .
+Note: "." meaning current directory
+For more help on using this tool, use this command: repo help upload
 
-Please see the CyanogenMod Wiki for building instructions.
+Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
+Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
-Initializing Repository
------------------------
-
-Repo initialization:
-
-    $ repo init -u https://github.com/temasek/android.git -b cm-13.0
-
-
-sync repo :
-
-    $ repo sync
-
-
-Temasek Bootanimation
----------------------
-
-Setting Aspect Ratio (TARGET_SCREEN_ASPECT_RATIO)
-
-Modern devices have excellent screens and most if not all boot animations from source do not take advantage of this. Devices have a set aspect ratio such as 16:9, 16:10, etc based on their width and height We can take advantage of this to create high quality full screen boot animations Within your device tree either in cm.mk, device.mk, or for example hlte.mk (for Samsung Galaxy Note 3 International) you will have "TARGET_SCREEN_HEIGHT" & "TARGET_SCREEN_WIDTH" These numbers should correspond to things such as 720p, 1080p, 1440p, in lamens terms. 
-
-If so, your device is said to have a screen aspect ratio of 16:9 Under your TARGET_SCREEN_HEIGHT & TARGET_SCREEN_WIDTH values place the corresponding ratio as follows: 
-
-TARGET_SCREEN_ASPECT_RATIO := 16by9 
-
-(this will also work with 16:10) This is device independant in that it will choose the correct full screen bootanimation for either phone or tablet config
-
-Further, the device requires a qualifier in the same location.
-
-SCREEN_RATIO_PROPORTIONATE := true
-
-This line is used as a conditioner flag, which allows the full screen boot animations to be seperated, allows to have more than 1 aspect ratio and not clutter up vendor with multiple ifeq statements that are for the same thing.
-
-This condition flag will essentially 'turn on' the full screen boot animation and the TARGET_SCREEN_ASPECT_RATIO flag will tell the build from what ratio the boot animation will be selected from.
+To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
 
 
-Credits
-=======
+Getting Started
+---------------
 
-Google for the Android source code. CyanogenMod, in which this source layout was used as a starting point for me. Everyone in crDroid, AOSPA, CyanogenMod, OmniROM, SlimROM, LiquidSmooth, SpasilliumNexus, DirtyUnicorns, NamelessROM, AICP, Euphoria-OS, TeamBliss, PAC and anyone else I forgot to mention for their commits.
+To get started with Android/CyanogenMod, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-Special mention - Cristiano Matos (crDroid)
+To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-Temasek HEAD of optimizations - arter97 (And advisor to kernel, device trees)
+    repo init -u git://github.com/SandPox/android.git -b cm-13.0
 
-PartimusPrime - Official bootanimation creator for temasek builds
+Then to sync up:
 
-Contributors - Khaon, neobuddy89, rogersb11 (Brett Rogers)
+    repo sync
 
+Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
-Officially Recognized Device Maintainers
-========================================
-temasek (hlte/hltespr, tilapia/grouper)
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
-arter97 (flo, ks01lte)
+Buildbot
+--------
 
-katinatez (Bacon)
+All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
 
-joshndroid (lte03wifi, mako, Nexus 9 Wifi, Nexus 6p)
-
-apascual89 (hammerhead, Nexus 6p)
-
-kornfed (klte)
-
-neobuddy89 (lettuce , Nexus 6)
-
-Darkened_Sky (i9300)
+You can view the current build statuses at [SandPox's Jenkins](http://jenkins.sandpox.org/)

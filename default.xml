@@ -38,8 +38,6 @@
  <project path="system/media" name="ishantvivek/android_system_media" remote="github" revision="cm-13.0" />
  <project path="hardware/libhardware_legacy" name="ishantvivek/android_hardware_libhardware_legacy" remote="github" revision="m" />
  <project path="frameworks/opt/net/wifi" name="ishantvivek/android_frameworks_opt_net_wifi" remote="github" revision="m" />
- <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
- 
  
 <!--End Patches-->
 <!-- END Kyleproxx -->           

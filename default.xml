@@ -23,11 +23,11 @@
 	   revision="nougat" />
 
   <!-- KYLEPROXX -->
-  <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="rr-ng" />
-  <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleprods" remote="github" revision="rr-ng" />
-  <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-14.1" />
-  <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
-  <project path="external/chromium-webview" name="ishantvivek/android_external_chromium-webview" clone-depth="1" remote="github" revision="7.0" />
+  <project path="device/samsung/kylepro" name="ishantvivek/device_kylepro" remote="private" revision="rr-ng" />
+  <project path="device/samsung/kyleprods" name="ishantvivek/device_kyleprods" remote="private" revision="rr-ng" />
+  <project path="kernel/samsung/kyleproxx" name="ishantvivek/kernel_kyleproxx" remote="private" revision="cm-14.1" />
+  <project path="vendor/samsung/kyleproxx" name="Samsung-KYLEPROXX/android_vendor_samsung_kyleproxx" remote="github" revision="cm-14.1" />
+  <project path="external/chromium-webview" name="Samsung-KYLEPROXX/android_external_chromium-webview" clone-depth="1" remote="github" revision="cm-14.1" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
